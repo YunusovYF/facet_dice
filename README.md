@@ -36,7 +36,4 @@
 6. Возможность адаптации под другие игровые системы или написания своей
 
 Схема базы данных, доступна для комментирования:
-
-https://drive.google.com/file/d/14VBeFBWOdFuwlfaMu97ikmmU3mn3EFq7/view?usp=sharing
-
-
+* https://drive.google.com/file/d/14VBeFBWOdFuwlfaMu97ikmmU3mn3EFq7/view?usp=sharing
