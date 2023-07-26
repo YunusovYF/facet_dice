@@ -37,3 +37,14 @@
 
 Схема базы данных, доступна для комментирования:
 * https://drive.google.com/file/d/14VBeFBWOdFuwlfaMu97ikmmU3mn3EFq7/view?usp=sharing
+
+Используемый инструментарий:
+* FastApi - основа бэкенда
+* SQLAlchemy - работа с БД
+* Flask Admin/FastApi Admin/SQLAlchemy Admin - админка
+* centrifugo - вебсокеты
+* Docker, portainer - контейнеризация и деплой
+* NGINX
+* Асинхронность и микросервисность пока под вопросом, возможно вынести битвы как сервис.
+* Celery, flower, rabbitMQ - возможно в дальнейшем для отложенных операций
+* Redis - возможно в дальнейшем для кэширования
