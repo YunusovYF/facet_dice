@@ -3,11 +3,14 @@ from uuid import UUID
 
 from sqlalchemy import select, insert
 
-from .db import async_session_maker
+from src.config.db import async_session_maker
 
 
 class AbstractRepository(ABC):
     model = None
+
+    def __call__(self):
+        pass
 
     @abstractmethod
     async def add_one(self, values: dict):

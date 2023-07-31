@@ -1,7 +1,7 @@
 from typing import List
 from uuid import UUID
 
-from src.config.repositories import AbstractRepository
+from src.core.repositories import AbstractRepository
 from .schemas import UserSchemaAdd, UserSchema
 
 
